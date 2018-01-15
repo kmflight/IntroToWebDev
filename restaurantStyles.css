@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #318475;
+}
+
+h1{
+    font-size: 54px;
+}
+h3{
+    font-size: 32px;
+}
+
+hr {
+    border-top: 3px dotted #055A8E;
+    border-bottom: none;
+}
+
+#title{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    font-size: small;
+}
+
+
+
+#content{
+    background-color: #DEDEE0;
+    padding: 20px;
+}
+
+#navigation{
+    text-align: center;
+
+}
+
+#navigation a  {
+    
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+#navigation a:link {
+    color: #055A8E;
+}
+
+#navigation a:visited {
+    color: #7A7A7C;
+}
+
+#navigation a:hover{
+    font-weight: bold;
+    background-color: #318475;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+}
+
+#navigation a:active{
+    color: #487191;
+    text-decoration: none;
+}
+
+.description {
+    max-width: 400px;
+    margin: auto;
+}

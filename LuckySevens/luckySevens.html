@@ -1,0 +1,44 @@
+<!DOCTYLE html>
+<html>
+    <head>
+        <title>Lucky Sevens Project</title>
+        <link href="luckySevens.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+        <script src="luckySevens.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Lucky Sevens</h1>
+            <form name="lucky" onsubmit="return validateForm();" onreset="return resetForm();">
+                <div class="form-group">
+                    <label for="bet">Starting Bet: </label>
+                    <input type="number" id="bet" name="bet" class="form-control"/><br /><br />
+                </div>
+                <button type="submit" id="playButton">Play</button>
+                <button type="reset" id="resetButton" class="btn">Reset</button>
+            </form>
+            <table id=results style="display:none">
+                <caption><h1>Results</h1></caption>
+                <tr>
+                    <td>Starting Bet</td>
+                    <td><span id="start"></span></td>
+                </tr>
+                <tr>
+                    <td>Total Rolls Before Going Broke</td>
+                    <td><span id="rollToBroke"></span></td>
+                </tr>
+                <tr>
+                    <td>Highest Amount Won</td>
+                    <td><span id="max"></span></td>
+                </tr>
+                <tr>
+                    <td>Roll Count at Highest Amount Won</td>
+                    <td><span id="rollToMax"></span></td>
+                </tr>
+            </table>
+        </div>
+
+
+    </body>
+
+</html>
